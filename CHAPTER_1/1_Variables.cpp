@@ -11,7 +11,7 @@ int main() {
 
     // Variables and Data Types
 
-    int a = 10; // variable declare
+    int a = 10; // variable declare and define (int = 4 bytes)
     cout<<a<<endl; // here a is  int i.e integer data type 
 
     char c = 'f'; // here c is variable of character  data type
@@ -21,7 +21,7 @@ int main() {
     cout<<f<<endl;
 
     double d = 6.64646464; // double data type is same as flout data type but used for more than 4 byte
-    cout<<d<<endl;
+    cout<<d<<endl;      // (Double = 8 byte)
 
     bool b = 1; // boolean data type is used for yes or no or true or false
     cout<<b<<endl;
