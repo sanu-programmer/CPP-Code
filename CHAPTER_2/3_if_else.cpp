@@ -3,7 +3,7 @@ using namespace std;
 int main(){
    //Question 1
      int package;
-      cout<<"Tell Me Your Expected Packages : ";
+     cout<<"Tell Me Your Expected Packages : ";
      cin>>package;
 
      if(package>10)
