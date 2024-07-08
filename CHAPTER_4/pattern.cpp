@@ -184,6 +184,16 @@ int main(){
     //                   11 12 13 14 15
     //                   16 17 18 19 20
     //                   21 22 23 24 25
+    int count =1, row10 , coln10;
+    for(row10 =1; row10<=5 ; row10++)
+    {
+        for(coln10 = 1 ; coln10 <= 5 ; coln10++)
+        {
+            cout<<count<<" ";
+            count = count +1;
+        }
+        cout<<endl;
+    }
      
 
 }
