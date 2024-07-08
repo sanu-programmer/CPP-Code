@@ -194,6 +194,19 @@ int main(){
         }
         cout<<endl;
     }
+
+    // we can also solve these que by another method
+    int  row11 , coln11;
+    for(row11 =1; row11<=5 ; row11++)
+    {
+        for(coln11 = 1 ; coln11 <= 5 ; coln11++)
+        {
+            cout<<(row11-1)*5+coln11<<" ";
+            
+        }
+        cout<<endl;
+    }
+
      
 
 }
