@@ -13,12 +13,12 @@ int main(){
     {
         for(col =(5-row) ; col>=1; col =col-1)
         {
-            cout<<""<<" ";
+            cout<<" ";
         }
         for(col1 =1 ; col1 <= row ; col1++ )
         {
             cout<<"*";
         }
-        cout<<endl;                  
-}
+        cout<<endl;                 
+    }
 }
