@@ -95,7 +95,7 @@ int main(){
     //             1 4 9 16 25
     //             1 4 9 16 25
     //             1 4 9 16 25
-    //             1 4 9 16 25
+    
     int k, l, row5 , coln5 ;
     cout<<"Enter the number of row : ";
     cin>>k;
@@ -179,8 +179,8 @@ int main(){
         cout<<endl;
     }
 
-    //   Question9, print 1 2 3 4 5
-    //                    6 7 8 9 10
+    //   Question9, print 1  2  3  4  5        (good que)
+    //                    6  7  8  9 10
     //                   11 12 13 14 15
     //                   16 17 18 19 20
     //                   21 22 23 24 25

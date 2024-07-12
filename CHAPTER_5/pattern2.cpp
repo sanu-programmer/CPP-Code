@@ -3,7 +3,7 @@ using namespace std;
 
 
 int main(){
-
+    //pattern 1
     //Question 1 , // print *
                         //  * *
                         //  * * *
@@ -49,7 +49,7 @@ int main(){
         cout<<endl;
     }
 
-    //Question4 ,print 1
+    //Question4 ,print 1          (pattern 2)
                  //    2 1
                  //    3 2 1
                  //    4 3 2 1
@@ -80,7 +80,7 @@ int main(){
         cout<<endl;
     }
 
-
+  // pettern 3
     //Question6 , print * * * * *
                      // * * * *
                      // * * *
@@ -136,7 +136,7 @@ int main(){
         cout<<endl;
     }
 
-    //Question8 , print 5
+    //Question8 , print 5           (pattern 4)
                      // 5 4 
                      // 5 4 3 
                      // 5 4 3 2
