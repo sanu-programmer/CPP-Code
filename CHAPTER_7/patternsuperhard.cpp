@@ -30,9 +30,11 @@ int main(){
                      //     1 2 3 2 1 
                      //   1 2 3 4 3 2 1
                      // 1 2 3 4 5 4 3 2 1
-    for(row = 1 ; row<=5 ; row++)
+    cout<<"Enter the input: ";
+    cin>>n;
+    for(row = 1 ; row<=n ; row++)
     {
-        for(col=1 ; col<=(5-row) ; col++)
+        for(col=1 ; col<=(n-row) ; col++)
         {
             cout<<"  ";
         }
@@ -47,7 +49,22 @@ int main(){
         cout<<endl;
     }
 
-    //Question 3 , print                  
+    //Question 3 , print  * * * * * * * * *
+                         // * * * * * * *
+                         //   * * * * *
+                         //     * * *
+                         //       * 
+    cout<<"Enter the input: ";
+    cin>>n;
+    for(row=1 ; row<=n ; row++)
+    {
+        for(col=1 ;col<=row-1 ; col++)
+        {
+            cout<<"  ";
+        }
+        
+    }                     
+
 
                       
 }
