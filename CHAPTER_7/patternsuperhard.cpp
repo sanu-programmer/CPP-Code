@@ -77,13 +77,15 @@ int main(){
                      //   * *         * *
                      //   * * *     * * *
                      //   * * * * * * * *
-    for(row =4 ; row>=1 ; row =row -1 )
+    cout<<"Enter the input : ";
+    cin>>n;                 
+    for(row =n ; row>=1 ; row =row -1 )
     {
         for(col = 1 ; col<= row ; col++)
         {
             cout<<"*"<<" ";
         }
-        for(col=1 ; col<= (8-2*row) ; col++)
+        for(col=1 ; col<= (2*n-2*row) ; col++)
         {
             cout<<"  ";
         }
@@ -93,13 +95,13 @@ int main(){
         }
         cout<<endl;
     }
-    for(row =1 ; row<=4 ; row++) 
+    for(row =1 ; row<=n ; row++) 
     {
        for(col = 1 ; col<= row ; col++)
         {
             cout<<"*"<<" ";
         }
-        for(col=1 ; col<= (8-2*row) ; col++)
+        for(col=1 ; col<= (2*n-2*row) ; col++)
         {
             cout<<"  ";
         }
@@ -111,7 +113,83 @@ int main(){
     }
 
 
-    //                
+    // Question 5 , print  *             *   for n = 4
+                     //    * *         * *
+                     //    * * *     * * *
+                     //    * * * * * * * *
+                     //    * * *     * * *
+                     //    * *         * *
+                     //    *             *
+    cout<<"Enter the input : ";
+    cin>>n;                 
+    for(row = 1 ; row <=n ; row++)
+    {
+        for(col=1 ; col<=row ; col++ )
+        {
+            cout<<"*"<<" ";
+        }
+        for(col=1 ; col<= (2*n-2*row) ; col++)
+        {
+            cout<<"  ";
+        }
+        for(col=1; col<=row ; col++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+    for(row= n-1 ; row>=1 ; row=row-1)
+    {
+        for(col=1 ; col<=row ; col++ )
+        {
+            cout<<"*"<<" ";
+        }
+        for(col=1 ; col<= (2*n-2*row) ; col++)
+        {
+            cout<<"  ";
+        }
+        for(col=1; col<=row ; col++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+
+    //Question 6 , print       *
+                         //   * *
+                         //  * * *
+                         // * * * *
+                         // * * * * 
+                         //  * * *
+                         //   * *
+                         //    * 
+    cout<<"Enter the input: ";
+    cin>>n;                     
+    for(row =1 ; row<= n ; row++)
+    {
+        for(col=1 ; col<=n-row ;col++)
+        {
+            cout<<" ";
+        }
+        for(col=1 ; col<=row ; col++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+    for(row=n ; row>=1 ; row = row-1)
+    {
+        for(col=1 ; col<=n-row ;col++)
+        {
+            cout<<" ";
+        }
+        for(col=1 ; col<=row ; col++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+
 
                          
 
