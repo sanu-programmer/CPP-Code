@@ -56,14 +56,22 @@ int main(){
                          //       * 
     cout<<"Enter the input: ";
     cin>>n;
-    for(row=1 ; row<=n ; row++)
+    for(row=n ; row>=1 ; row = row-1)
     {
-        for(col=1 ;col<=row-1 ; col++)
+        for(col=1 ;col<= n-row ; col++)            // ((2*n-1) -(2*row-1))/2 = n-row
         {
             cout<<"  ";
         }
-        
-    }                     
+        for(col=1 ; col<=(2*row-1) ; col++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;  
+    }
+
+    //Question 4 , print 
+
+                         
 
 
                       
