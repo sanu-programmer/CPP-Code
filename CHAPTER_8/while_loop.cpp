@@ -42,11 +42,11 @@ int main(){
     cout<<"Enter the number: ";
     cin>>n;
     i=1;
-    while(i<=n)
+    while(i<=n)  //initialise
     {
-        if(i%2==0)
+        if(i%2==0)  //break
         {
-            cout<<i<<endl;
+            cout<<i<<endl;  //update
         }
         i++;
 
