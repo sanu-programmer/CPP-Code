@@ -23,4 +23,30 @@ int main(){
     }while(i<=10);
 
 
+    //Concept of Break and continue  using while loop 
+    // Question1 ,print 1 to 10 break if number == 4
+
+    i =1;
+    while(i<=10)
+    {
+        if(i==4)
+        break;
+
+        cout<<i<<endl;
+        i++;
+    }
+
+
+    // Question 2 , print 1 to 10 i=using for loop if i%4 == 0 continue
+    for(i=1 ; i <= 10 ; i++)
+    {
+        if(i%4 == 0)
+        continue;
+
+        cout<<i<<endl; 
+    }
+
+
+
+
 }
