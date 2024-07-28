@@ -125,7 +125,7 @@ int main(){
         {
             cout<<"*"<<" ";
         }
-        for(col=1 ; col<= (2*n-2*row) ; col++)
+        for(col=1 ; col<= (2*n-2*row) ; col++)  //here 2n is written for general , for specific n = 4 , (8 -2*row) 
         {
             cout<<"  ";
         }
@@ -229,6 +229,61 @@ int main(){
         }
         cout<<endl;
     }
+
+
+    //Question 7 , print    1    for n = 5
+                 //       1 2 3
+                 //     1 2 3 4 5
+                 //   1 2 3 4 5 6 7
+                 // 1 2 3 4 5 6 7 8 9
+
+    cout<<"Enter the input: ";
+    cin>>n;
+    for(row =1 ; row<=n ; row++ )
+    {
+        for(col =1 ; col<=n-row ; col++ )
+        {
+            cout<<"  ";
+        }
+        for(col = 1 ; col<=row ; col++)
+        {
+            cout<<col<<" ";
+        }
+        for(col =row+1 ; col<=2*row-1 ; col++)
+        {
+            cout<<col<<" ";
+        }
+        cout<<endl;
+    }
+
+    //Question 8 , print         A
+                     //        A B A
+                     //      A B C B A
+                     //    A B C D C B A
+                     //  A B C D E D C B A
+    cout<<"Enter the input: ";
+    cin>>n;
+    for(row =1 ; row<=n ; row++)
+    {
+        for(col =1 ; col<=n-row ; col++)
+        {
+            cout<<"  ";
+        }
+        for(col=1 ; col<=row ; col++)
+        {
+            char name = 'A' + (col-1);
+            cout<<name<<" ";
+
+        }
+        for(col =row-1 ; col >=1 ; col = col-1 )
+        {
+           char name = 'A' + (col-1);
+           cout<<name<<" "; 
+        }
+        cout<<endl;
+    }                 
+             
+
 
 
                          
