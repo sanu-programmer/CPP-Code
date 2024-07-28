@@ -69,6 +69,46 @@ int main(){
         cout<<endl;  
     }
 
+    // For n = 5 Specific , we can code this
+    //Question 3 , print  * * * * * * * * *
+                         // * * * * * * *
+                         //   * * * * *
+                         //     * * *
+                         //       * 
+
+    cout<<"Enter the input for n = 5 :";
+    cin>>n;
+    for(row = 5 ; row>=1 ; row = row-1)
+    {
+        for(col =1 ; col<= (9 - (2*row-1))/2 ; col++ )
+        {
+            cout<<"  ";
+        }
+
+        for(col =1 ; col<= (2*row-1) ; col++ )
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+
+    //Another method for the above question
+    // cout<<"Enter the input:";
+    // cin>>n;
+    // for(row =1 ; row<=1 ; row = row+1)
+    // {
+    //     for(col =1 ; col<=(row-1) ;col++ )
+    //     {
+    //         cout<<"  ";
+    //     }
+    //     for(col =1 ; col<= ; )
+    //     {
+
+    //     }
+    // }
+
+
+
     //Question 4 , print  * * * * * * * *     for n = 4
                      //   * * *     * * *
                      //   * *         * *
