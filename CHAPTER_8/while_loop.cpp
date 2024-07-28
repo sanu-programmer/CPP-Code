@@ -66,16 +66,40 @@ int main(){
 
     }
 
-    //Question 6 , print decimal in binary
-    int num = 13;
+    //Question 6 , print  decimal to  binary
+    cout<<"Enter the decimal number : ";
+    int num ;
+    cin>>num;
     int rem , ans = 0 , mul = 1;
     while(num>0)
-    {
-        rem = num%2;
-        num = num/2;
-        ans = rem*mul+ans;
-        mul = mul*10;
+    {   
+        //reminder
+        rem = num%2;  //rem = num%2;
+        //Quotient
+        num /= 2;  //num = num/2;
+        //answer
+        ans += rem*mul;  //ans = rem*mul+ans;
+        // update miltiplier
+        mul *= 10;    //mul = mul* 10;
     }
+    cout<<ans<<endl;
+    
+
+    //Question 7 , print binary to decimal 
+    cout<<"Enter the binary number: ";
+    cin>>num;
+    num;
+    rem , ans = 0 , mul =1;
+    while(num>0)
+    {   
+        //remainder 
+        rem = num%10;
+        num /= 10;
+        ans += rem*mul;
+        mul *= 2;
+    }
+    cout<<ans<<endl;
+
     
 
 
