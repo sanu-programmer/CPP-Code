@@ -202,7 +202,7 @@ int main(){
         for(coln11 = 1 ; coln11 <= 5 ; coln11++)
         {
             cout<<(row11-1)*5+coln11<<" ";
-            
+               
         }
         cout<<endl;
     }

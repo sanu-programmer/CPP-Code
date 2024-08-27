@@ -15,7 +15,7 @@ int main(){
     //  C++ provides several ways to perform type casting, including implicit and explicit casts.
     // 1. Implicit Casting
     //     Implicit casting is done automatically by the compiler when there is no risk of data loss or when converting between compatible types.
-    int a = 10;
+    a = 10;
     double b = 5.5;
     double result = a + b;  // Implicit casting of int to double in the operation
     cout << result <<endl;  // Output: 15.5
