@@ -52,15 +52,15 @@ int main(){
     switch(i)
     {
         case 1:
-        cout<<"Sanu"<<" ";
+        cout<<"Sanu"<<" "<<endl;
         break;
         
         case 2:
-        cout<<"Shivam"<<" ";
+        cout<<"Shivam"<<" "<<endl;
         break;
 
         default:
-        cout<<"Som";
+        cout<<"Som"<<endl;
     }
 
 
