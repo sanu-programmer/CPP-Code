@@ -16,7 +16,7 @@ using namespace std;
 //         cout<<arr[1].second;
 //     }
 
-//     //vector
+//vector
 //     void explainvector(){
 
 //         vector<int> v; = {}
